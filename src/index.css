@@ -22,4 +22,7 @@
     /* width is 100% where as height is 0% initiall */
     mask-size: 100% 0%;
   }
+  .depth {
+    transform: perspective(800px) rotateX(10deg);
+  }
 }
